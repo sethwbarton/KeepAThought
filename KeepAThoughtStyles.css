@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a {
+  text-decoration: none;
+   color: #cdecff;
+}
+
+footer {
+  background-color: #559bd0;
+}
+
+button {
+	text-decoration: none;
+    font-family: 'Shrikhand', cursive;
+    color: #cdecff;
+    border: solid;
+    border-style: dashed ;
+    font-size: 15px;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+.home {
+  font-family: 'Shrikhand', cursive;
+  background: url(images/clouds2.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 900px;
+  text-align: center;
+  font-size: 25px;
+  color: #cdecff;
+}
+
+#HomeHeader {
+	padding: 80px;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+#HomeSubHeader {
+	padding-bottom: 400px;
+}
+
+#WhatIs {
+    color: #ed7b7b;
+}
+
+#WhatIsBox {
+   border: solid;
+   width: 400px;
+   margin-left: 500px;
+   background-color: #cdecff;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0 7px grey;
+  -webkit-box-shadow: 0px 0 7px grey;
+  box-shadow: 0px 0 7px grey;
+
+}
+
+#HomeButtons {
+
+}
+
+.HomeGrid {
+  background-color: #559bd0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  text-align: center;
+  color: #cdecff;
+  height: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.AboutSubHeader {
+  font-family: 'Shrikhand', cursive;
+  color: #ed7b7b;
+  background-color: #cdecff;
+  border-radius: 10px;
+ -moz-box-shadow: 0px 0 7px grey;
+ -webkit-box-shadow: 0px 0 7px grey;
+ box-shadow: 0px 0 7px grey;
+ margin-top: 30px;
+ font-size: 25px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-bottom: 50px;
+}
