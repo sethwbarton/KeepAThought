@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  font-family: 'Shadows Into Light', cursive;
+	background-color: #4f98ce;
+
+}
+
+a {
+	text-decoration: none;
+    color: white;
+}
+
+#MainHeader {
+	font-family: 'Shrikhand', cursive;
+    color: #cdecff;
+    font-size: 35px;
+    text-align: center;
+}
+
+#MainHeader a {
+	font-family: 'Shrikhand', cursive;
+    color: #cdecff;
+    font-size: 35px;
+    text-align: center;
+}
+
+.texteditor {
+    color: white;
+    border: solid;
+    width: 700px;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 800px;
+    background-color: white;
+    border-radius: 2%;
+    -moz-box-shadow: 0px 0px 10px grey;
+    -webkit-box-shadow: 0px 0px 10px grey;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.texteditor p {
+	color: lightgrey;
+    padding: 10px;
+}
+
+h1 button {
+    font-family: 'Shrikhand', cursive;
+	color: #ed7b7b;
+    font-size: 30px;
+    padding-left: 650px;
+}
+
+div.sidebar {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    float: left;
+    position: fixed;
+    margin-top: 15%;
+}
+
+div.sidebar li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
