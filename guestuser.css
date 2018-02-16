@@ -19,11 +19,35 @@ a {
     color: white;
 }
 
+.Dictionary {
+  font-family: 'Shrikhand', cursive;
+  margin-left: 10px;
+  color: #cdecff;
+  display: block;
+}
+
+.Dictionary button {
+  font-family: 'Shrikhand', cursive;
+  margin-left: 10px;
+  color: #ed7b7b;
+  /*border: solid;*/
+  width: 400px;
+  background-color: #cdecff;
+ border-radius: 10px;
+ -moz-box-shadow: 0px 0 7px grey;
+ -webkit-box-shadow: 0px 0 7px grey;
+ box-shadow: 0px 0 7px grey;
+ float: left;
+
+}
+
 #MainHeader {
 	font-family: 'Shrikhand', cursive;
     color: #cdecff;
     font-size: 35px;
     text-align: center;
+    display: inline-block;
+    margin-left: 40%;
 }
 
 #MainHeader a {
@@ -47,8 +71,8 @@ a {
     box-shadow: 0px 0px 10px grey;
 }
 
-.texteditor p {
-	color: lightgrey;
+#fakeText  {
+	  color: lightgrey;
     padding: 10px;
 }
 
